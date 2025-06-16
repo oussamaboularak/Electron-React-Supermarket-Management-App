@@ -1,0 +1,12 @@
+{
+  "licenseKey": "MM-VTJGc2RHVmtYMTgxQTdoWm9TU",
+  "activatedAt": "2025-06-16T07:00:54.589Z",
+  "license": {
+    "id": "c63a5221-73e5-4383-87cb-1ae07ff0ffa2",
+    "customerName": "Customer 3",
+    "customerEmail": "customer3@example.com",
+    "createdAt": "2025-06-15T06:10:41.580Z",
+    "expiresAt": "2025-06-22T06:10:41.580Z",
+    "daysRemaining": 6
+  }
+}

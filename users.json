@@ -1,0 +1,39 @@
+[
+  {
+    "id": "admin-001",
+    "username": "admin",
+    "email": "admin@marketmanager.com",
+    "fullName": "مدير النظام",
+    "role": "admin",
+    "isActive": true,
+    "createdAt": "2025-06-16T06:36:33.699Z",
+    "lastLogin": "2025-06-16T08:49:27.633Z",
+    "passwordHash": "f2d2804b31daa5fac299da80f9c23479b16f7b1e7efc71b48975d32dead2cf46c74cd7a6773a66628f1efdf56321081f4df381938546438d0aae3ed1f2239688",
+    "passwordSalt": "16443ac27a1d69607680fe5c913e063c"
+  },
+  {
+    "id": "user-1750057801509",
+    "username": "test",
+    "email": "123@gmail.com",
+    "fullName": "test",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2025-06-16T07:10:01.509Z",
+    "lastLogin": "2025-06-16T08:35:29.598Z",
+    "passwordHash": "e7d30c81ca0bb1329f8314e6b000e83649e591278b30535452284b171b2018c63bc28f99419d71ab2cb6bf29cbb5d46057c1f5dee40a0e0a3b06f8c232f505e8",
+    "passwordSalt": "321cf3234dd048da892921f7e75aa4a1",
+    "updatedAt": "2025-06-16T08:33:56.104Z"
+  },
+  {
+    "id": "user-1750061105273",
+    "username": "aaa",
+    "email": "a@gmail.com",
+    "fullName": "aaaaa",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2025-06-16T08:05:05.273Z",
+    "lastLogin": null,
+    "passwordHash": "5c119ea4ce0ef816ebbac888a81c6dec8a86e0f53806c9426c3ef77dc1eb3aec7ecdaa7a0a525e79651ea77ddf62e8a5c9b21483102f0510231c0aa65c15fd6e",
+    "passwordSalt": "96a3fe2df75d3a932c397972fe97d4ca"
+  }
+]

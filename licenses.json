@@ -1,0 +1,27 @@
+[
+  {
+    "licenseKey": "MM-VTJGc2RHVmtYMTgxQTdoWm9TU",
+    "id": "c63a5221-73e5-4383-87cb-1ae07ff0ffa2",
+    "customerName": "Customer 3",
+    "customerEmail": "customer3@example.com",
+    "createdAt": "2025-06-15T06:10:41.580Z",
+    "expiresAt": "2027-06-22T06:10:41.580Z",
+    "durationDays": 737,
+    "isActive": true,
+    "activatedAt": null,
+    "activatedBy": null,
+    "updatedAt": "2025-06-16T08:35:24.062Z"
+  },
+  {
+    "licenseKey": "MM-2CtRd3fQ0saGB0zt9p6s",
+    "id": "license-1750057003582",
+    "customerName": "احمد",
+    "customerEmail": "1@gmail.com",
+    "createdAt": "2025-06-16T06:56:43.582Z",
+    "expiresAt": "2025-12-13T06:56:43.582Z",
+    "durationDays": 180,
+    "isActive": true,
+    "activatedAt": null,
+    "activatedBy": null
+  }
+]
