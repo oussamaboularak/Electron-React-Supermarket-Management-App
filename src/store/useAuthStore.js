@@ -91,9 +91,11 @@ const useAuthStore = create(
         set({ isLoading: true, error: null });
 
         try {
-          const { ipcRenderer } = window.require ? window.require('electron') : { ipcRenderer: null };
+          // Check if we're in Electron environment
+          const isElectron = window.require && window.require('electron');
+          const { ipcRenderer } = isElectron ? window.require('electron') : { ipcRenderer: null };
 
-          if (ipcRenderer) {
+          if (ipcRenderer && isElectron) {
             // وضع سطح المكتب
             const result = await ipcRenderer.invoke('auth-login', credentials);
 
@@ -149,9 +151,11 @@ const useAuthStore = create(
         set({ isLoading: true, error: null });
 
         try {
-          const { ipcRenderer } = window.require ? window.require('electron') : { ipcRenderer: null };
+          // Check if we're in Electron environment
+          const isElectron = window.require && window.require('electron');
+          const { ipcRenderer } = isElectron ? window.require('electron') : { ipcRenderer: null };
 
-          if (ipcRenderer) {
+          if (ipcRenderer && isElectron) {
             // وضع سطح المكتب
             const result = await ipcRenderer.invoke('auth-register', userData);
 
@@ -198,9 +202,11 @@ const useAuthStore = create(
         }
 
         try {
-          const { ipcRenderer } = window.require ? window.require('electron') : { ipcRenderer: null };
+          // Check if we're in Electron environment
+          const isElectron = window.require && window.require('electron');
+          const { ipcRenderer } = isElectron ? window.require('electron') : { ipcRenderer: null };
 
-          if (ipcRenderer) {
+          if (ipcRenderer && isElectron) {
             // وضع سطح المكتب
             const result = await ipcRenderer.invoke('auth-validate-session', sessionToken);
 
@@ -247,9 +253,11 @@ const useAuthStore = create(
         const { sessionToken } = get();
         
         try {
-          const { ipcRenderer } = window.require ? window.require('electron') : { ipcRenderer: null };
+          // Check if we're in Electron environment
+          const isElectron = window.require && window.require('electron');
+          const { ipcRenderer } = isElectron ? window.require('electron') : { ipcRenderer: null };
           
-          if (ipcRenderer && sessionToken) {
+          if (ipcRenderer && isElectron && sessionToken) {
             await ipcRenderer.invoke('auth-logout', sessionToken);
           }
         } catch (error) {
